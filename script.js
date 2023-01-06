@@ -1,35 +1,35 @@
 const quizData  = [
     {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "javascript",
+        question: "Where does Mayora stay now?",
+        a: "Arayan",
+        b: "Phil",
+        c: "Manila",
+        d: "Aziziya",
         correct: "d",
     },
     {
-        question: "What does CSS stand for?",
-        a: "Central Stle Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars Suvs Sailboats",
-        correct: "b",
-    },
-    {
-        question: "Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "javascript",
+        question: "What is Grace last Name",
+        a: "Ogega",
+        b: "Aziziya",
+        c: "Mayora",
+        d: "Martillano",
         correct: "d",
     },
     {
-        question: "What does CSS stand for?",
-        a: "Central Stle Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars Suvs Sailboats",
-        correct: "b",
+        question: "Who does Grace Love",
+        a: "All",
+        b: "Levi",
+        c: "Cyrus",
+        d: "joy",
+        correct: "a",
+    },
+    {
+        question: "How old is Grace",
+        a: "2years",
+        b: "102 years",
+        c: "31 years",
+        d: "58 years",
+        correct: "c",
     }
 
 ];
@@ -80,21 +80,10 @@ submitBtn.addEventListener('click', () => {
             loadQuiz()
         }else{
             quiz.innerHTML =`
-            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+            <h2>You answered ${score}/${quizData.length} questions correctly 
+            Show Me Cookie</h2>
             <button onclick="location.reload()">Reload</button>
             `
         }
     }
 })
-
-
-
-
-
-
-
-
-
-
-
-
