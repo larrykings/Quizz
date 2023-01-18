@@ -1,36 +1,53 @@
 const quizData  = [
     {
-        question: "Where does Mayora stay now?",
-        a: "Arayan",
-        b: "Phil",
-        c: "Manila",
-        d: "Aziziya",
-        correct: "d",
+      question: "The permit to work system is very important procedure that control work to ensure a safe working environment",
+      a:"true",
+      b:"false",
+      correct:'a',
     },
     {
-        question: "What is Grace last Name",
-        a: "Ogega",
-        b: "Aziziya",
-        c: "Mayora",
-        d: "Martillano",
-        correct: "d",
+        question: "when is the permit to work system used ",
+        a:"For the routine work only",
+        b:"for non-hazardous work only",
+        c:"for all non-routine to potentially hazardous work",
+        d:"for electrical work only",
+        correct:"c",
     },
     {
-        question: "Who does Grace Love",
-        a: "All",
-        b: "Levi",
-        c: "Cyrus",
-        d: "joy",
+        question:"Who is involved in the permit to work system",
+        a:"management only",
+        b:"Permit Authority",
+        c:"All personel within the common facility",
+        d:"Supervisors only",
+        correct:"c",
+    },
+    { 
+        question:"From which specific location is the permit to work system administered?",
+        a:"The maintenance department",
+        b:"The Permit Authority's Office",
+        c:"The Worksite ",
+        d:"The conotrol Room",
+        correct: "d",
+    },
+    {   
+        question: "which documents is used to control potentially hazardous work?",
+        a:"Manufacures' information",
+        b:"work permits",
+        c:"P & IDs",
+        d:"Certificates",
+        correct:"b"
+
+    },
+    {
+        question: "how many Permit to work are there in Dukhan",
+        a: "3",
+        b: "4",
+        c: "5",
+        d: "none",
         correct: "a",
     },
-    {
-        question: "How old is Grace",
-        a: "2years",
-        b: "102 years",
-        c: "31 years",
-        d: "58 years",
-        correct: "c",
-    }
+
+    
 
 ];
 
