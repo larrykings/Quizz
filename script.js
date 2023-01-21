@@ -100,7 +100,7 @@ submitBtn.addEventListener('click', () => {
             <h2>You answered ${score}/${quizData.length} questions correctly 
             Show Me Cookie</h2>
             <button onclick="location.reload()">Reload</button>
-            <button onclick="location.href = 'https://module-2-xi.vercel.app/';">Go Back</button>
+            <button onclick="location.href = 'https://quiz-mainpage.vercel.app/';">Go Back</button>
             `
         }
     }
