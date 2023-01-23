@@ -2,8 +2,8 @@ const quizData  = [
     {
       question: "The permit to work system is very important procedure that control work to ensure a safe working environment",
       a:"maybe",
-      B:"sometimes",
-      C:"false",
+      b:"sometimes",
+      c:"false",
       d:"true",
       correct:"d",
     },
