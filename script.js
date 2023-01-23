@@ -3,6 +3,8 @@ const quizData  = [
       question: "The permit to work system is very important procedure that control work to ensure a safe working environment",
       a:"true",
       b:"false",
+      C:"maybe",
+      D:"sometimes",
       correct:'a',
     },
     {
@@ -18,7 +20,7 @@ const quizData  = [
         a:"management only",
         b:"Permit Authority",
         c:"All personel within the common facility",
-        d:"Supervisors only",
+        d:"Supervisor only",
         correct:"c",
     },
     { 
