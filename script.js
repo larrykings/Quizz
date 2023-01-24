@@ -99,8 +99,7 @@ submitBtn.addEventListener('click', () => {
             loadQuiz()
         }else{
             quiz.innerHTML =`
-            <h2>You answered ${score}/${quizData.length} questions correctly 
-            Show Me Cookie</h2>
+            <h2>You answered ${Math.round(score/quizData.length)}% </h2>
             <button onclick="location.reload()">Reload</button>
             <button onclick="location.href = 'https://quiz-mainpage.vercel.app/';">Go Back</button>
             `
